@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd4fa8b2edb996246970b15d8977b81e, type: 3}
+  m_Name: 3DFruits
+  m_EditorClassIdentifier: 
+  Id: 0
+  AlgsMask:
+  - {fileID: 21300000, guid: b684d976681380844a8601dbe6e54eb8, type: 3}
+  - {fileID: 21300000, guid: e11125986de75604c8f3c98705d4b4a2, type: 3}
+  - {fileID: 21300000, guid: 2784109d989ddef439c62aa5c21845ec, type: 3}
+  - {fileID: 21300000, guid: 4d48d132a8bf5c044bbc68a11c5fa9d4, type: 3}
+  - {fileID: 21300000, guid: 37ba6648602628c41843182b2e0f29c9, type: 3}
+  - {fileID: 21300000, guid: 93dd71e10ff782f4b90686a7e3ba0062, type: 3}
+  - {fileID: 21300000, guid: 77c922b38c28fad45bbcdfc32bf1a21c, type: 3}
+  - {fileID: 21300000, guid: fe52638323a22614fa7a6fc160ac2948, type: 3}

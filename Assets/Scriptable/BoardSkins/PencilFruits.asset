@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd4fa8b2edb996246970b15d8977b81e, type: 3}
+  m_Name: PencilFruits
+  m_EditorClassIdentifier: 
+  Id: 0
+  AlgsMask:
+  - {fileID: 21300000, guid: 576c136499403214cae6da0b7d1f9135, type: 3}
+  - {fileID: 21300000, guid: cf72af0431f3dbc49891c93e0bcd725d, type: 3}
+  - {fileID: 21300000, guid: c2ae86d419790674dbcf0b2205bb4adf, type: 3}
+  - {fileID: 21300000, guid: 258208f087c244247ae18398c9c7b7bf, type: 3}
+  - {fileID: 21300000, guid: 55bb7d9a20e241a44b6ec51b36c59efa, type: 3}
+  - {fileID: 21300000, guid: 4737b9623ff5bc34db3d721be4e8d403, type: 3}
+  - {fileID: 21300000, guid: b3c31ce7b37719048a8269bd3be3abd2, type: 3}
+  - {fileID: 21300000, guid: 2c1caa2a20a22df40a25bcf491825e11, type: 3}
+  - {fileID: 21300000, guid: 7668f5b49056a79419f0b9f2f72bfc3c, type: 3}
+  - {fileID: 21300000, guid: 5034078357bbbd24c8b0d4d9f257ada3, type: 3}

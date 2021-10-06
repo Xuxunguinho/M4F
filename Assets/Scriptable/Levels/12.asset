@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c62bd0cb3dc12b49a8b253f7c41d5df, type: 3}
+  m_Name: 12
+  m_EditorClassIdentifier: 
+  IsLocked: 1
+  Stars: 0
+  Score: 0
+  TimeSeconds: 90
+  BestTime: 0
+  TargetGoals:
+    Init: 1
+    Final: 5
+  SortedNumbers:
+    InitRandom: 1
+    FinalRandom: 10
+    Quantity: 5
+  Lines:
+  - TargetLinesAlgs:
+    - TargetIndex: 1
+      AlgsIndex: 000000000000000000000000
+      Operators: 2b00
+      AlgsMultiplicationFactor: []
+      AlgsMaskToHideType: 0
+      AlgsToHideMask: 
+      AlgsExponentsType: 0
+      AlgsExponents: []
+      CustonAlgForResultIndex: 0
+    IsIcognitLine: 0
+  - TargetLinesAlgs:
+    - TargetIndex: 1
+      AlgsIndex: 010000000100000000000000
+      Operators: 2b00
+      AlgsMultiplicationFactor: []
+      AlgsMaskToHideType: 0
+      AlgsToHideMask: 
+      AlgsExponentsType: 0
+      AlgsExponents: []
+      CustonAlgForResultIndex: 0
+    IsIcognitLine: 0
+  - TargetLinesAlgs:
+    - TargetIndex: 1
+      AlgsIndex: 010000000100000000000000
+      Operators: 2b002d00
+      AlgsMultiplicationFactor: []
+      AlgsMaskToHideType: 0
+      AlgsToHideMask: 
+      AlgsExponentsType: 0
+      AlgsExponents: []
+      CustonAlgForResultIndex: 0
+    IsIcognitLine: 1
