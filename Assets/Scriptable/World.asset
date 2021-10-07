@@ -13,8 +13,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GoldHarts: 0
   Tips: 2
-  ScoreOfStars: 35
-  SelectedLevel: 2
+  ScoreOfStars: 43
+  SelectedLevel: 3
   SelectedSkin: 1
   Levels:
   - {fileID: 11400000, guid: 029b9ebe828facb449a7c82a21068b84, type: 2}
