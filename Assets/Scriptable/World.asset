@@ -11,10 +11,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2cdd8d52c1b46944966261b562b0a06, type: 3}
   m_Name: World
   m_EditorClassIdentifier: 
-  GoldHarts: 0
+  GoldHarts: 2
   Tips: 2
-  ScoreOfStars: 0
-  SelectedLevel: 19
+  ScoreOfStars: 22
+  SelectedLevel: 18
   SelectedSkin: 2
   Levels:
   - {fileID: 11400000, guid: 029b9ebe828facb449a7c82a21068b84, type: 2}

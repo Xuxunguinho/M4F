@@ -1,2 +1,12 @@
 obj/
 obj/Debug/Assembly-CSharp.dll
+Library/Cache/
+Library/metadata/
+Library/ShaderCache/
+Temp/
+*.log
+Library/EditorInstance.json
+Library/ProtocolInstance.json
+Library/CurrentMaximizeLayout.dwlt
+Library/CurrentMaximizeLayout.dwlt
+Library/assetDatabase3
