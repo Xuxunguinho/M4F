@@ -16,6 +16,7 @@ public class LevelInterfaceManager : MonoBehaviour {
     //public Text Tips;
     public Text ScoreOfStarsText;
     public Text StopWatchText;
+      public Text LevelShowText;
 //    public Text BestTimeText;
     
   

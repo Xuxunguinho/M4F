@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\QBinary 01\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\QBinary 01\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_MathPuzzle.728326440.00" t="ExcludeRecursive" />
+    <e p="D:\Projects\GitHubs\MathPuzzle" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="Animator_Script.cs" t="Include" />
+          <e p="Boards" t="Include">
+            <e p="DataTrasporters" t="Include">
+              <e p="BoardIF.cs" t="Include" />
+              <e p="BoardLineIF.cs" t="Include" />
+            </e>
+            <e p="InterfaceInterator" t="Include">
+              <e p="AnswerItemITC.cs" t="Include" />
+              <e p="BoardAnswerITC.cs" t="Include" />
+              <e p="BoardITC.cs" t="Include" />
+              <e p="BoardLineITC.cs" t="Include" />
+              <e p="LineItemITC.cs" t="Include" />
+              <e p="OperatorITC.cs" t="Include" />
+            </e>
+            <e p="Repository" t="Include">
+              <e p="Boards.cs" t="Include" />
+            </e>
+          </e>
+          <e p="BoardSortedNumbers.cs" t="Include" />
+          <e p="BoardTheme.cs" t="Include" />
+          <e p="CalculatorCompiler" t="Include">
+            <e p="CalcCompiller.cs" t="Include" />
+            <e p="CompillerExtentions.cs" t="Include" />
+            <e p="EnumerableMensure.cs" t="Include" />
+            <e p="PossibleResultsRenerator.cs" t="Include" />
+            <e p="SortedNumbers.cs" t="Include" />
+          </e>
+          <e p="DoubleIndexValue.cs" t="Include" />
+          <e p="Enums.cs" t="Include" />
+          <e p="ExtensionMethods.cs" t="Include" />
+          <e p="ExtensionMethods.EnumerableMensure.cs" t="Include" />
+          <e p="GlobalManagers" t="Include">
+            <e p="GameDataManager.cs" t="Include" />
+            <e p="HeartsLifeManager.cs" t="Include" />
+            <e p="LevelGoalsManager.cs" t="Include" />
+            <e p="SceneManager.cs" t="Include" />
+            <e p="ScoreManager.cs" t="Include" />
+            <e p="SoundManager.cs" t="Include" />
+            <e p="StarsClassificatorManager.cs" t="Include" />
+          </e>
+          <e p="HomeScene" t="Include">
+            <e p="HomeScript.cs" t="Include" />
+          </e>
+          <e p="LevelGamingScene" t="Include">
+            <e p="GameOverPanel.cs" t="Include" />
+            <e p="Gaming.cs" t="Include" />
+            <e p="GamingOverDrawPanelManager.cs" t="Include" />
+            <e p="HartsBuyPanel.cs" t="Include" />
+            <e p="LevelGoalsScene.cs" t="Include" />
+          </e>
+          <e p="LevelSelectScene" t="Include">
+            <e p="ConfirmPanelManager.cs" t="Include" />
+            <e p="LevelButtonManager.cs" t="Include" />
+            <e p="LevelInterfaceManager.cs" t="Include" />
+            <e p="LevelPanelDetails.cs" t="Include" />
+            <e p="LevelsSelectManager.cs" t="Include" />
+          </e>
+          <e p="LevelTarget.cs" t="Include" />
+          <e p="MaskItem.cs" t="Include" />
+          <e p="Mensure.cs" t="Include" />
+          <e p="PanelAsForm.cs" t="Include" />
+          <e p="ScriptableObjects" t="Include">
+            <e p="Level.cs" t="Include" />
+            <e p="World.cs" t="Include" />
+          </e>
+          <e p="Tools" t="Include">
+            <e p="MensureToolKit.cs" t="Include" />
+            <e p="StopWatch.cs" t="Include" />
+          </e>
+          <e p="Types.cs" t="Include" />
+        </e>
+        <e p="TextMesh Pro" t="Include">
+          <e p="Examples &amp; Extras" t="Include">
+            <e p="Fonts" t="Include">
+              <e p="Anton OFL.txt" t="Include" />
+              <e p="Bangers - OFL.txt" t="Include" />
+              <e p="LiberationSans - OFL.txt" t="Include" />
+              <e p="Oswald-Bold - OFL.txt" t="Include" />
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="Benchmark01.cs" t="Include" />
+              <e p="Benchmark01_UGUI.cs" t="Include" />
+              <e p="Benchmark02.cs" t="Include" />
+              <e p="Benchmark03.cs" t="Include" />
+              <e p="Benchmark04.cs" t="Include" />
+              <e p="CameraController.cs" t="Include" />
+              <e p="ChatController.cs" t="Include" />
+              <e p="EnvMapAnimator.cs" t="Include" />
+              <e p="ObjectSpin.cs" t="Include" />
+              <e p="ShaderPropAnimator.cs" t="Include" />
+              <e p="SimpleScript.cs" t="Include" />
+              <e p="SkewTextExample.cs" t="Include" />
+              <e p="TeleType.cs" t="Include" />
+              <e p="TextConsoleSimulator.cs" t="Include" />
+              <e p="TextMeshProFloatingText.cs" t="Include" />
+              <e p="TextMeshSpawner.cs" t="Include" />
+              <e p="TMP_DigitValidator.cs" t="Include" />
+              <e p="TMP_ExampleScript_01.cs" t="Include" />
+              <e p="TMP_FrameRateCounter.cs" t="Include" />
+              <e p="TMP_PhoneNumberValidator.cs" t="Include" />
+              <e p="TMP_TextEventCheck.cs" t="Include" />
+              <e p="TMP_TextEventHandler.cs" t="Include" />
+              <e p="TMP_TextInfoDebugTool.cs" t="Include" />
+              <e p="TMP_TextSelector_A.cs" t="Include" />
+              <e p="TMP_TextSelector_B.cs" t="Include" />
+              <e p="TMP_UiFrameRateCounter.cs" t="Include" />
+              <e p="TMPro_InstructionOverlay.cs" t="Include" />
+              <e p="VertexColorCycler.cs" t="Include" />
+              <e p="VertexJitter.cs" t="Include" />
+              <e p="VertexShakeA.cs" t="Include" />
+              <e p="VertexShakeB.cs" t="Include" />
+              <e p="VertexZoom.cs" t="Include" />
+              <e p="WarpTextExample.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Resources" t="Include">
+            <e p="LineBreaking Following Characters.txt" t="Include" />
+            <e p="LineBreaking Leading Characters.txt" t="Include" />
+            <e p="Shaders" t="Include">
+              <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+              <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+              <e p="TMP_Bitmap.shader" t="Include" />
+              <e p="TMP_SDF Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface.shader" t="Include" />
+              <e p="TMP_SDF.shader" t="Include" />
+              <e p="TMP_Sprite.shader" t="Include" />
+              <e p="TMPro.cginc" t="Include" />
+              <e p="TMPro_Properties.cginc" t="Include" />
+              <e p="TMPro_Surface.cginc" t="Include" />
+            </e>
+          </e>
+          <e p="Sprites" t="Include">
+            <e p="EmojiOne Attribution.txt" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="MathPuzzle.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Name: 5
   m_EditorClassIdentifier: 
   IsLocked: 1
-  Stars: 0
-  Score: 0
+  Stars: 1
+  Score: 6
   TimeSeconds: 90
-  BestTime: 0
+  BestTime: 2
   TargetGoals:
-    Init: 1
+    Init: 0
     Final: 5
   SortedNumbers:
     InitRandom: 1

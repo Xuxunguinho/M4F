@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 using System.Linq;
 using Assets.Scripts;
 using Assets.Scripts.Boards.DataTrasporters;
@@ -8,34 +7,34 @@ using UnityEngine;
 // ReSharper disable once CheckNamespace
 public class Gaming : LevelInterfaceManager
 {
-   
-
     private SoundManager _soundManager;
+
     // Use this for initialization 
     void Start()
     {
         _soundManager = FindObjectOfType<SoundManager>();
         LoadBoard();
-       
     }
+
     private void Awake()
     {
         OverDrawPanel.SetActive(false);
     }
+
     // Update is called once per frame
     void Update()
     {
-        TargetText.text = string.Format("{0} / {1}", "" + World.Levels[this.World.SelectedLevel - 1].TargetGoals.Init, World.Levels[this.World.SelectedLevel - 1].TargetGoals.Final);
+        TargetText.text = string.Format("{0} / {1}", "" + World.Levels[this.World.SelectedLevel - 1].TargetGoals.Init,
+            World.Levels[this.World.SelectedLevel - 1].TargetGoals.Final);
 //        BestTimeText.text = string.Format("{0}  s", "" + World.Levels[this.World.SelectedLevel - 1].BestTime);
         ScoreOfStarsText.text = string.Format("{0}", "" + World.ScoreOfStars);
+        LevelShowText.text = string.Format("Level {0}", this.World.SelectedLevel);
         //Tips.text = string.Format("{0}", "" + World.Tips);
 //        HartsText.text = "" + World.GoldHarts;
-       
-
     }
+
     public override void LoadBoard()
     {
-
         var idx = this.World.SelectedLevel - 1;
         var level = World.Levels[idx];
         StopWatch.Time = level.TimeSeconds;
@@ -51,10 +50,9 @@ public class Gaming : LevelInterfaceManager
             Lines = level.Lines,
             Target = level.TargetGoals.Init,
             SortedNumbers = nSorteds
-
         };
         if (Board.ResetLines())
-        Board.SetBoardValues(boardToload);
+            Board.SetBoardValues(boardToload);
 
 
 //        foreach (var l in World.Levels)
@@ -100,8 +98,6 @@ public class Gaming : LevelInterfaceManager
 
         //}
         //MigrateBoards();
-
-
     }
 
     //    //private void MigrateBoards()
@@ -138,21 +134,19 @@ public class Gaming : LevelInterfaceManager
         _soundManager.PlayOnClick();
         this.OverDrawPanel.SetActive(true);
         OverdrawObject.Show(2);
-
     }
+
     public void StopGameYes()
     {
         _soundManager.PlayOnClick();
         this.OverDrawPanel.SetActive(false);
         UnityEngine.SceneManagement.SceneManager.LoadScene("Levels");
     }
-    public void  StopGameNo()
+
+    public void StopGameNo()
     {
         //StopWatch.Stoped = false;
         _soundManager.PlayOnClick();
         this.OverDrawPanel.SetActive(false);
-      
     }
-    
-
 }

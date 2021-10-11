@@ -15,7 +15,7 @@ MonoBehaviour:
   Stars: 3
   Score: 30
   TimeSeconds: 90
-  BestTime: 0
+  BestTime: 2
   TargetGoals:
     Init: 0
     Final: 10

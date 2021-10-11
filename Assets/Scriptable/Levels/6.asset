@@ -11,13 +11,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c62bd0cb3dc12b49a8b253f7c41d5df, type: 3}
   m_Name: 6
   m_EditorClassIdentifier: 
-  IsLocked: 1
+  IsLocked: 0
   Stars: 0
   Score: 0
   TimeSeconds: 90
-  BestTime: 0
+  BestTime: 90
   TargetGoals:
-    Init: 1
+    Init: 4
     Final: 5
   SortedNumbers:
     InitRandom: 1

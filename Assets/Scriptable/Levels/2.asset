@@ -17,7 +17,7 @@ MonoBehaviour:
   TimeSeconds: 90
   BestTime: 0
   TargetGoals:
-    Init: 1
+    Init: 0
     Final: 5
   SortedNumbers:
     InitRandom: 1
